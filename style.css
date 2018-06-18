@@ -1,0 +1,64 @@
+﻿@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	margin: 10px auto;
+	background-color: gray;
+	/* background-image: url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/OR7D4PANCK.jpg'); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'IM+Fell+Great+Primer'; 
+	margin-left: 200px;
+}
+
+h1 {
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 95px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	width: 150px;
+	text-align: center;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+.column {
+	display: inline-block;
+	float: left;
+	width: 15%;
+	margin-right: 15px;
+}
+
+.column-container {
+	padding-top: 30px;
+}
+
+.add-card {
+	font-size: 15px;
+}
+
+.card {
+	color: white;
+}
+
+.card-placeholder {
+	border: 2px dotted yellow ;
+	height: 25px;
+	border-radius: 2px;
+	list-style-type: none;
+	margin-right: 150px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
